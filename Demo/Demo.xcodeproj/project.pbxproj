@@ -13,10 +13,13 @@
 		7D0AD5B42B725DB60011EBA2 /* CopyFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0AD5B32B725DB60011EBA2 /* CopyFieldView.swift */; };
 		7D0AD5B62B725E290011EBA2 /* ConfigurableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0AD5B52B725E290011EBA2 /* ConfigurableView.swift */; };
 		7D0AD5B82B725E7D0011EBA2 /* PlainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0AD5B72B725E7D0011EBA2 /* PlainTableViewCell.swift */; };
-		7D0AD5BB2B725F030011EBA2 /* DemoAnalyticsManaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0AD5BA2B725F030011EBA2 /* DemoAnalyticsManaging.swift */; };
-		7D0AD5BD2B725F370011EBA2 /* DemoAnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0AD5BC2B725F370011EBA2 /* DemoAnalyticsManager.swift */; };
-		7D0AD5BF2B725FB00011EBA2 /* EventNameEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0AD5BE2B725FB00011EBA2 /* EventNameEnum.swift */; };
-		7D0AD5C12B72611A0011EBA2 /* SomeFacilityForMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0AD5C02B72611A0011EBA2 /* SomeFacilityForMetrics.swift */; };
+		7D0AD5C32B7266A70011EBA2 /* InteractionEnhancementUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0AD5C22B7266A70011EBA2 /* InteractionEnhancementUtility.swift */; };
+		7D0AD5C52B7266BF0011EBA2 /* InteractionEnhancementUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0AD5C42B7266BF0011EBA2 /* InteractionEnhancementUtility.swift */; };
+		7D0AD5CC2B7267440011EBA2 /* DemoAnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0AD5C72B7267440011EBA2 /* DemoAnalyticsManager.swift */; };
+		7D0AD5CD2B7267440011EBA2 /* DemoAnalyticsManaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0AD5C82B7267440011EBA2 /* DemoAnalyticsManaging.swift */; };
+		7D0AD5CE2B7267440011EBA2 /* SomeFacilityForMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0AD5C92B7267440011EBA2 /* SomeFacilityForMetrics.swift */; };
+		7D0AD5CF2B7267440011EBA2 /* EventNameEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0AD5CA2B7267440011EBA2 /* EventNameEnum.swift */; };
+		7D0AD5D02B7267440011EBA2 /* InteractionEnhancementUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0AD5CB2B7267440011EBA2 /* InteractionEnhancementUtility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,10 +30,13 @@
 		7D0AD5B32B725DB60011EBA2 /* CopyFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyFieldView.swift; sourceTree = "<group>"; };
 		7D0AD5B52B725E290011EBA2 /* ConfigurableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableView.swift; sourceTree = "<group>"; };
 		7D0AD5B72B725E7D0011EBA2 /* PlainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainTableViewCell.swift; sourceTree = "<group>"; };
-		7D0AD5BA2B725F030011EBA2 /* DemoAnalyticsManaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DemoAnalyticsManaging.swift; path = ../../../../../../DemoAnalyticsManaging.swift; sourceTree = "<group>"; };
-		7D0AD5BC2B725F370011EBA2 /* DemoAnalyticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DemoAnalyticsManager.swift; path = ../../../../../../DemoAnalyticsManager.swift; sourceTree = "<group>"; };
-		7D0AD5BE2B725FB00011EBA2 /* EventNameEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventNameEnum.swift; path = ../../../../../../EventNameEnum.swift; sourceTree = "<group>"; };
-		7D0AD5C02B72611A0011EBA2 /* SomeFacilityForMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SomeFacilityForMetrics.swift; path = ../../../../../../SomeFacilityForMetrics.swift; sourceTree = "<group>"; };
+		7D0AD5C22B7266A70011EBA2 /* InteractionEnhancementUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InteractionEnhancementUtility.swift; path = ../../../../../InteractionEnhancementUtility.swift; sourceTree = "<group>"; };
+		7D0AD5C42B7266BF0011EBA2 /* InteractionEnhancementUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractionEnhancementUtility.swift; sourceTree = "<group>"; };
+		7D0AD5C72B7267440011EBA2 /* DemoAnalyticsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoAnalyticsManager.swift; sourceTree = "<group>"; };
+		7D0AD5C82B7267440011EBA2 /* DemoAnalyticsManaging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoAnalyticsManaging.swift; sourceTree = "<group>"; };
+		7D0AD5C92B7267440011EBA2 /* SomeFacilityForMetrics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomeFacilityForMetrics.swift; sourceTree = "<group>"; };
+		7D0AD5CA2B7267440011EBA2 /* EventNameEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventNameEnum.swift; sourceTree = "<group>"; };
+		7D0AD5CB2B7267440011EBA2 /* InteractionEnhancementUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractionEnhancementUtility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +69,10 @@
 		7D0AD5962B725CB30011EBA2 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				7D0AD5B92B725EF00011EBA2 /* AnalyticsDemo */,
+				7D0AD5C62B7267380011EBA2 /* AnalyticsDemo */,
 				7D0AD5B22B725DA70011EBA2 /* UIDemo */,
 				7D0AD5B12B725D9D0011EBA2 /* ViewModelDemo */,
+				7D0AD5C22B7266A70011EBA2 /* InteractionEnhancementUtility.swift */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -83,6 +90,7 @@
 		7D0AD5B22B725DA70011EBA2 /* UIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7D0AD5C42B7266BF0011EBA2 /* InteractionEnhancementUtility.swift */,
 				7D0AD5B32B725DB60011EBA2 /* CopyFieldView.swift */,
 				7D0AD5B52B725E290011EBA2 /* ConfigurableView.swift */,
 				7D0AD5B72B725E7D0011EBA2 /* PlainTableViewCell.swift */,
@@ -90,13 +98,14 @@
 			path = UIDemo;
 			sourceTree = "<group>";
 		};
-		7D0AD5B92B725EF00011EBA2 /* AnalyticsDemo */ = {
+		7D0AD5C62B7267380011EBA2 /* AnalyticsDemo */ = {
 			isa = PBXGroup;
 			children = (
-				7D0AD5BA2B725F030011EBA2 /* DemoAnalyticsManaging.swift */,
-				7D0AD5BC2B725F370011EBA2 /* DemoAnalyticsManager.swift */,
-				7D0AD5BE2B725FB00011EBA2 /* EventNameEnum.swift */,
-				7D0AD5C02B72611A0011EBA2 /* SomeFacilityForMetrics.swift */,
+				7D0AD5C72B7267440011EBA2 /* DemoAnalyticsManager.swift */,
+				7D0AD5C82B7267440011EBA2 /* DemoAnalyticsManaging.swift */,
+				7D0AD5CA2B7267440011EBA2 /* EventNameEnum.swift */,
+				7D0AD5CB2B7267440011EBA2 /* InteractionEnhancementUtility.swift */,
+				7D0AD5C92B7267440011EBA2 /* SomeFacilityForMetrics.swift */,
 			);
 			path = AnalyticsDemo;
 			sourceTree = "<group>";
@@ -169,16 +178,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D0AD5C12B72611A0011EBA2 /* SomeFacilityForMetrics.swift in Sources */,
-				7D0AD5BB2B725F030011EBA2 /* DemoAnalyticsManaging.swift in Sources */,
+				7D0AD5CE2B7267440011EBA2 /* SomeFacilityForMetrics.swift in Sources */,
+				7D0AD5D02B7267440011EBA2 /* InteractionEnhancementUtility.swift in Sources */,
+				7D0AD5C52B7266BF0011EBA2 /* InteractionEnhancementUtility.swift in Sources */,
+				7D0AD5CD2B7267440011EBA2 /* DemoAnalyticsManaging.swift in Sources */,
+				7D0AD5CC2B7267440011EBA2 /* DemoAnalyticsManager.swift in Sources */,
 				7D0AD5B82B725E7D0011EBA2 /* PlainTableViewCell.swift in Sources */,
 				7D0AD5B62B725E290011EBA2 /* ConfigurableView.swift in Sources */,
+				7D0AD5CF2B7267440011EBA2 /* EventNameEnum.swift in Sources */,
 				7D0AD5B42B725DB60011EBA2 /* CopyFieldView.swift in Sources */,
 				7D0AD5AC2B725CDC0011EBA2 /* ViewModelType.swift in Sources */,
-				7D0AD5BD2B725F370011EBA2 /* DemoAnalyticsManager.swift in Sources */,
-				7D0AD5BF2B725FB00011EBA2 /* EventNameEnum.swift in Sources */,
 				7D0AD5B02B725D3A0011EBA2 /* ChangeLimitViewModel.swift in Sources */,
 				7D0AD5AE2B725CF90011EBA2 /* ChangeLimitViewModelling.swift in Sources */,
+				7D0AD5C32B7266A70011EBA2 /* InteractionEnhancementUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
