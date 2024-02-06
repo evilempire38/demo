@@ -20,6 +20,15 @@
 		7D0AD5CE2B7267440011EBA2 /* SomeFacilityForMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0AD5C92B7267440011EBA2 /* SomeFacilityForMetrics.swift */; };
 		7D0AD5CF2B7267440011EBA2 /* EventNameEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0AD5CA2B7267440011EBA2 /* EventNameEnum.swift */; };
 		7D0AD5D02B7267440011EBA2 /* InteractionEnhancementUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0AD5CB2B7267440011EBA2 /* InteractionEnhancementUtility.swift */; };
+		7D29338D2B726DDD00111142 /* PromoBannerWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2933842B726DDD00111142 /* PromoBannerWidget.swift */; };
+		7D29338E2B726DDD00111142 /* PromoBannerWidgetProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2933852B726DDD00111142 /* PromoBannerWidgetProtocols.swift */; };
+		7D29338F2B726DDD00111142 /* PromoBannerWidgetPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2933862B726DDD00111142 /* PromoBannerWidgetPresenter.swift */; };
+		7D2933902B726DDD00111142 /* PromoBannerWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2933872B726DDD00111142 /* PromoBannerWidgetView.swift */; };
+		7D2933912B726DDD00111142 /* PromoBannerWidgetShimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2933882B726DDD00111142 /* PromoBannerWidgetShimmer.swift */; };
+		7D2933922B726DDD00111142 /* PromoBannerWidgetInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2933892B726DDD00111142 /* PromoBannerWidgetInteractor.swift */; };
+		7D2933932B726DDD00111142 /* PromoBannerWidgetAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D29338A2B726DDD00111142 /* PromoBannerWidgetAssembly.swift */; };
+		7D2933942B726DDD00111142 /* PromoBannerWidgetModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D29338B2B726DDD00111142 /* PromoBannerWidgetModels.swift */; };
+		7D2933952B726DDD00111142 /* PromoBannerWidgetRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D29338C2B726DDD00111142 /* PromoBannerWidgetRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +46,15 @@
 		7D0AD5C92B7267440011EBA2 /* SomeFacilityForMetrics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomeFacilityForMetrics.swift; sourceTree = "<group>"; };
 		7D0AD5CA2B7267440011EBA2 /* EventNameEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventNameEnum.swift; sourceTree = "<group>"; };
 		7D0AD5CB2B7267440011EBA2 /* InteractionEnhancementUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractionEnhancementUtility.swift; sourceTree = "<group>"; };
+		7D2933842B726DDD00111142 /* PromoBannerWidget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoBannerWidget.swift; sourceTree = "<group>"; };
+		7D2933852B726DDD00111142 /* PromoBannerWidgetProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoBannerWidgetProtocols.swift; sourceTree = "<group>"; };
+		7D2933862B726DDD00111142 /* PromoBannerWidgetPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoBannerWidgetPresenter.swift; sourceTree = "<group>"; };
+		7D2933872B726DDD00111142 /* PromoBannerWidgetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoBannerWidgetView.swift; sourceTree = "<group>"; };
+		7D2933882B726DDD00111142 /* PromoBannerWidgetShimmer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoBannerWidgetShimmer.swift; sourceTree = "<group>"; };
+		7D2933892B726DDD00111142 /* PromoBannerWidgetInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoBannerWidgetInteractor.swift; sourceTree = "<group>"; };
+		7D29338A2B726DDD00111142 /* PromoBannerWidgetAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoBannerWidgetAssembly.swift; sourceTree = "<group>"; };
+		7D29338B2B726DDD00111142 /* PromoBannerWidgetModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoBannerWidgetModels.swift; sourceTree = "<group>"; };
+		7D29338C2B726DDD00111142 /* PromoBannerWidgetRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoBannerWidgetRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +87,7 @@
 		7D0AD5962B725CB30011EBA2 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				7D2933832B726DDD00111142 /* CleanSwiftModuleDemo */,
 				7D0AD5C62B7267380011EBA2 /* AnalyticsDemo */,
 				7D0AD5B22B725DA70011EBA2 /* UIDemo */,
 				7D0AD5B12B725D9D0011EBA2 /* ViewModelDemo */,
@@ -108,6 +127,22 @@
 				7D0AD5C92B7267440011EBA2 /* SomeFacilityForMetrics.swift */,
 			);
 			path = AnalyticsDemo;
+			sourceTree = "<group>";
+		};
+		7D2933832B726DDD00111142 /* CleanSwiftModuleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7D2933842B726DDD00111142 /* PromoBannerWidget.swift */,
+				7D2933852B726DDD00111142 /* PromoBannerWidgetProtocols.swift */,
+				7D2933862B726DDD00111142 /* PromoBannerWidgetPresenter.swift */,
+				7D2933872B726DDD00111142 /* PromoBannerWidgetView.swift */,
+				7D2933882B726DDD00111142 /* PromoBannerWidgetShimmer.swift */,
+				7D2933892B726DDD00111142 /* PromoBannerWidgetInteractor.swift */,
+				7D29338A2B726DDD00111142 /* PromoBannerWidgetAssembly.swift */,
+				7D29338B2B726DDD00111142 /* PromoBannerWidgetModels.swift */,
+				7D29338C2B726DDD00111142 /* PromoBannerWidgetRouter.swift */,
+			);
+			path = CleanSwiftModuleDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,15 +214,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D0AD5CE2B7267440011EBA2 /* SomeFacilityForMetrics.swift in Sources */,
+				7D2933932B726DDD00111142 /* PromoBannerWidgetAssembly.swift in Sources */,
+				7D2933922B726DDD00111142 /* PromoBannerWidgetInteractor.swift in Sources */,
+				7D29338D2B726DDD00111142 /* PromoBannerWidget.swift in Sources */,
 				7D0AD5D02B7267440011EBA2 /* InteractionEnhancementUtility.swift in Sources */,
 				7D0AD5C52B7266BF0011EBA2 /* InteractionEnhancementUtility.swift in Sources */,
+				7D29338F2B726DDD00111142 /* PromoBannerWidgetPresenter.swift in Sources */,
+				7D29338E2B726DDD00111142 /* PromoBannerWidgetProtocols.swift in Sources */,
 				7D0AD5CD2B7267440011EBA2 /* DemoAnalyticsManaging.swift in Sources */,
 				7D0AD5CC2B7267440011EBA2 /* DemoAnalyticsManager.swift in Sources */,
 				7D0AD5B82B725E7D0011EBA2 /* PlainTableViewCell.swift in Sources */,
 				7D0AD5B62B725E290011EBA2 /* ConfigurableView.swift in Sources */,
+				7D2933942B726DDD00111142 /* PromoBannerWidgetModels.swift in Sources */,
 				7D0AD5CF2B7267440011EBA2 /* EventNameEnum.swift in Sources */,
+				7D2933902B726DDD00111142 /* PromoBannerWidgetView.swift in Sources */,
 				7D0AD5B42B725DB60011EBA2 /* CopyFieldView.swift in Sources */,
+				7D2933912B726DDD00111142 /* PromoBannerWidgetShimmer.swift in Sources */,
 				7D0AD5AC2B725CDC0011EBA2 /* ViewModelType.swift in Sources */,
+				7D2933952B726DDD00111142 /* PromoBannerWidgetRouter.swift in Sources */,
 				7D0AD5B02B725D3A0011EBA2 /* ChangeLimitViewModel.swift in Sources */,
 				7D0AD5AE2B725CF90011EBA2 /* ChangeLimitViewModelling.swift in Sources */,
 				7D0AD5C32B7266A70011EBA2 /* InteractionEnhancementUtility.swift in Sources */,
